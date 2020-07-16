@@ -9,6 +9,9 @@ int potongan_harga (){
 		total_belanjaan=pembayaran-potongan_harga;
 		cout<<endl<<"wawwwww anda mendapatkan potongan harga 20%"<<endl;
 	}
+	else{
+		total_belanjaan=pembayaran;
+	}
 	cout<< "jumlah potonga harga:"<<potongan_harga<<endl;
 	cout<< "total keseluruhan yang harus di bayar pembeli:" << total_belanjaan << endl;
 }
